@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MB WAP" allow-return-values="true" verbose="1" parallel="tests" thread-count="1">
+    <test name="Sanity Test cases">
+    
+     
+        <classes>
+            <class name="com.mb.wapsanity.testscripts.LaunchWap"/>
+            <class name="com.mb.wapsanity.testscripts.VerifyContacts"/>
+            <class name="com.mb.wapsanity.testscripts.PostPropertyTest"/>
+            
+        </classes>
+    </test>
+    
+    
+    
+</suite>

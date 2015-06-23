@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [MB WAP]" parallel="tests">
+  <test name="Sanity Test cases(failed)" parallel="tests" preserve-order="false">
+    <classes>
+      <class name="com.mb.wapsanity.testscripts.PostPropertyTest">
+        <methods>
+          <include name="postProperty"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

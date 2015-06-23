@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [MB WAP]" parallel="tests" allow-return-values="true">
+  <test name="Sanity Test cases(failed)" parallel="tests">
+    <classes>
+      <class name="com.mb.wapsanity.testscripts.VerifyContacts">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.mb.wapsanity.testscripts.VerifyContacts -->
+      <class name="com.mb.wapsanity.testscripts.PostPropertyTest">
+        <methods>
+          <include name="postProperty"/>
+        </methods>
+      </class> <!-- com.mb.wapsanity.testscripts.PostPropertyTest -->
+    </classes>
+  </test> <!-- Sanity Test cases(failed) -->
+</suite> <!-- Failed suite [MB WAP] -->

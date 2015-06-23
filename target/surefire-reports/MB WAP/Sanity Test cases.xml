@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="NODTBSL452AG" name="com.mb.wapsanity.testscripts.PostPropertyTest" tests="1" failures="0" timestamp="23 Jun 2015 11:11:08 GMT" time="42.527" errors="0">
+  <testcase name="@BeforeTest beforeSuite" time="0.0" classname="com.mb.wapsanity.testscripts.PostPropertyTest">
+    <failure type="org.openqa.selenium.SessionNotCreatedException" message="A new session could not be created. (Original error: Did not get session redirect from Chromedriver) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42.31 seconds
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;NODTBSL452AG&amp;apos;, ip: &amp;apos;10.150.240.243&amp;apos;, os.name: &amp;apos;Windows Vista&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.2&amp;apos;, java.version: &amp;apos;1.7.0-ea&amp;apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Did not get session redirect from Chromedriver) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42.31 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'NODTBSL452AG', ip: '10.150.240.243', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0-ea'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at com.mb.wapsanity.testscripts.LaunchWap.beforeSuite(LaunchWap.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:674)
+... Removed 18 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="postProperty" time="0.0" classname="com.mb.wapsanity.testscripts.PostPropertyTest">
+    <skipped/>
+  </testcase>
+</testsuite>
